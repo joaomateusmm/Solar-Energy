@@ -88,7 +88,7 @@ export default function ModelSection() {
         {/* ESQUERDA */}
         <Label
           text="Moldura de Alumínio"
-          description="Estrutura robusta e leve, resistente à corrosão."
+          description="Estrutura externa que garante robustez, proteção contra deformações e facilita o transporte e a instalação. "
           top="30%"
           left="23%"
           width="120px"
@@ -96,7 +96,7 @@ export default function ModelSection() {
         />
         <Label
           text="BackSheet"
-          description="Proteção traseira contra umidade e isolamento."
+          description="A camada plástica na parte de trás que oferece proteção elétrica e ambiental, variando conforme o tipo de célula utilizada. "
           top="60%"
           left="19%"
           width="85px"
@@ -105,8 +105,8 @@ export default function ModelSection() {
 
         {/* DIREITA */}
         <Label
-          text="Vidro Especial"
-          description="Alta transparência para máxima absorção solar."
+          text="Vidro Solar"
+          description="A camada superior de vidro temperado que protege as células contra impactos e danos externos."
           top="20%"
           right="16%"
           width="100px"
@@ -114,7 +114,7 @@ export default function ModelSection() {
         />
         <Label
           text="Encapsulante - EVA"
-          description="Protege as células contra impactos e vibrações."
+          description="Camadas de Etileno Acetato de Vinila (EVA) que envolvem as células, protegendo-as da umidade, poeira e vibrações, além de uni-las às outras camadas."
           top="42%"
           right="19%"
           width="160px"
@@ -122,7 +122,7 @@ export default function ModelSection() {
         />
         <Label
           text="Células Fotovoltaicas"
-          description="Tecnologia Monocristalina de alta eficiência."
+          description="O núcleo da placa, são as células de silício (ou outro material semicondutor) que convertem a luz solar em eletricidade pelo efeito fotovoltaico"
           top="82%"
           right="28%"
           width="140px"
