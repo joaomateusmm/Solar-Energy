@@ -1,7 +1,7 @@
 "use client";
 
 import gsap from "gsap";
-import { MoveDown } from "lucide-react";
+import { ChevronsDown } from "lucide-react";
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 // Importações dos componentes filhos da primeira página
@@ -88,10 +88,10 @@ export default function HeroSection() {
               <div className="hero-anim opacity-0">
                 <a
                   href="#solar"
-                  className="flex w-[190px] cursor-pointer items-center justify-center gap-2 rounded-full border-2 border-white/10 bg-white/5 px-5 py-3 text-white/90 backdrop-blur-xs duration-200 hover:bg-white/10"
+                  className="group flex w-[190px] cursor-pointer items-center justify-center gap-2 rounded-full border-2 border-white/10 bg-white/5 px-5 py-3 text-white/90 shadow-md backdrop-blur-xs duration-200 hover:bg-white/10"
                   aria-label="Explorar site"
                 >
-                  <MoveDown className="h-4 w-4 text-white/90" />
+                  <ChevronsDown className="h-5 w-5 transform text-white/90 duration-300 group-hover:-rotate-90" />
                   Explorar Site
                 </a>
               </div>

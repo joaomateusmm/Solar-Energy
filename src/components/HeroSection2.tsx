@@ -58,7 +58,7 @@ export default function RightHeroSection() {
       </div>
       {/* --- BLOCO 1: Cartão de Notícias --- */}
       <div className="right-anim right-18 bottom-18 z-40 flex flex-col items-end gap-3 opacity-0">
-        <div className="h-[250px] w-[400px] rounded-2xl border-2 border-white/10 bg-white/5 backdrop-blur-xs">
+        <div className="h-[250px] w-[400px] rounded-2xl border-2 border-white/10 bg-white/5 shadow-md backdrop-blur-xs">
           <div className="h-full w-full p-6">
             <div className="flex h-full flex-col justify-center">
               <p className="text-xs leading-relaxed text-white/70">

@@ -100,7 +100,7 @@ export default function HeroSection3() {
             alt="Tecnologias de energia solar"
             width={220}
             height={400}
-            className="textos absolute translate-x-[430px] -translate-y-[110px] will-change-transform"
+            className="textos absolute translate-x-[440px] -translate-y-[110px] will-change-transform"
             style={{ width: "auto", height: "auto" }}
           />
 
@@ -121,9 +121,9 @@ export default function HeroSection3() {
             </p>
             <button
               type="button"
-              className="textos z-50 flex h-[80px] w-[80px] cursor-pointer items-center justify-center rounded-2xl bg-[#00413D] shadow-md duration-300 hover:scale-105 hover:shadow-lg active:scale-95"
+              className="textos group z-50 flex h-[80px] w-[80px] cursor-pointer items-center justify-center rounded-2xl bg-[#00413D] shadow-md duration-300 hover:scale-105 hover:shadow-lg active:scale-95"
             >
-              <ChevronsLeft className="h-8 w-8 stroke-2 text-white" />
+              <ChevronsLeft className="h-8 w-8 stroke-2 text-white duration-300 group-hover:-rotate-90" />
             </button>
 
             <Image
@@ -153,9 +153,9 @@ export default function HeroSection3() {
             </p>
             <button
               type="button"
-              className="textos z-50 flex h-[80px] w-[80px] cursor-pointer items-center justify-center rounded-2xl bg-[#00413D] shadow-md duration-300 hover:shadow-lg active:scale-95"
+              className="textos group z-50 flex h-[80px] w-[80px] cursor-pointer items-center justify-center rounded-2xl bg-[#00413D] shadow-md duration-300 hover:shadow-lg active:scale-95"
             >
-              <ChevronsRight className="h-8 w-8 stroke-2 text-white" />
+              <ChevronsRight className="h-8 w-8 stroke-2 text-white duration-300 group-hover:rotate-90" />
             </button>
 
             <Image
